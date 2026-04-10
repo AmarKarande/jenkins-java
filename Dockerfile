@@ -4,5 +4,5 @@ WORKDIR    /app
 
 COPY	hello.java /app
 
-RUN jacac hello.java
+RUN javac hello.java
 CMD ["java", "hello"]
