@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     environment {
-        DOCKER_IMAGE = 'helloJava:Latest' // Docker Image name
+        DOCKER_IMAGE = 'hellojava' // Docker Image name
     }
 
     stages {
