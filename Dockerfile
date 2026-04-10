@@ -1,8 +1,9 @@
 FROM bellsoft/liberica-openjdk-alpine:17
 
-WORKDIR    /app
+WORKDIR /app
 
-COPY	hello.java /app
+COPY Hello.java /app
 
-RUN javac hello.java
-CMD ["java", "hello"]
+RUN javac Hello.java
+
+CMD ["java", "Hello"]
